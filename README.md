@@ -1,4 +1,4 @@
-# learn-with-freinds
+# learn-with-friends
 
 learn programming by practicing problems on dialy basis with friends, share solutions and help each other to become better programmer.
 
