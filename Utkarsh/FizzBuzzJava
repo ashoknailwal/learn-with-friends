@@ -1,0 +1,22 @@
+public class Solution {
+
+    public static void main(String[] args) {
+        // FizzBuzz
+        for (int i = 0; i < 100; i++) {
+            
+            String a = "";
+            
+            if (i%3 == 0) {
+                a += "Fizz";
+            }
+            if (i%5 == 0) {
+                a += "Buzz";
+            }
+
+            if (Objects.equals(a, "")) {
+                a = String.valueOf(i);
+            }
+            System.out.println(a);
+        }
+    }
+}
